@@ -1,5 +1,5 @@
-Template for mod.
+Library with many tag-related changes made by GK1H.
 <h1>Features</h1>
-Template.
+Adds tags that can be useful, adds items to tags that should be included in the first place, and more.
 <h1>Links</h1>
-<a style="color:#1bd96a;" href="https://modrinth.com/mod/gk1h-mod-template">Modrinth</a>
+<a style="color:#1bd96a;" href="https://modrinth.com/mod/GK1H-Tags">Modrinth</a>

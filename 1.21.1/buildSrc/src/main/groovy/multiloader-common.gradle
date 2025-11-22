@@ -93,7 +93,6 @@ processResources {
             'java_version'                 : java_version,
             'mod_source_url'               : mod_source_url,
             'mod_issue_url'                : mod_issue_url,
-            'fzzy_config_version'          : fzzy_config_version,
             'gk1hcore_version'             : gk1hcore_version,
             'modmenu_version'              : modmenu_version
     ]

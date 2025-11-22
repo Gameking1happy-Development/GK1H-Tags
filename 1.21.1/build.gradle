@@ -8,10 +8,6 @@ plugins {
 subprojects {
     repositories {
         maven {
-            name = "FzzyMaven"
-            url = "https://maven.fzzyhmstrs.me/"
-        }
-        maven {
             name = "GK1H Mod Resources"
             url = "https://raw.githubusercontent.com/Gameking1happy-Development/Mod-Resources/main/maven/"
         }
