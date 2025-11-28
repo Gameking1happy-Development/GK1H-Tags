@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "spikyspikes:diamond_spike",
+      "required": false
+    },
+    {
+      "id": "spikyspikes:netherite_spike",
+      "required": false
+    }
+  ]
+}

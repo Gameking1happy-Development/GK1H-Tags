@@ -1,0 +1,88 @@
+{
+  "values": [
+    {
+      "id": "#curios:arrow",
+      "required": false
+    },
+    {
+      "id": "#curios:all",
+      "required": false
+    },
+    {
+      "id": "#curios:charm",
+      "required": false
+    },
+    {
+      "id": "#curios:curio",
+      "required": false
+    },
+    {
+      "id": "#curios:compass",
+      "required": false
+    },
+    {
+      "id": "#curios:recovery_compass",
+      "required": false
+    },
+    {
+      "id": "#curios:clock",
+      "required": false
+    },
+    {
+      "id": "#curios:elytra",
+      "required": false
+    },
+    {
+      "id": "#curios:ender_chest",
+      "required": false
+    },
+    {
+      "id": "#curios:back",
+      "required": false
+    },
+    {
+      "id": "#curios:totem",
+      "required": false
+    },
+    {
+      "id": "#curios:body",
+      "required": false
+    },
+    {
+      "id": "#curios:lantern",
+      "required": false
+    },
+    {
+      "id": "#curios:spyglass",
+      "required": false
+    },
+    {
+      "id": "#curios:shulker",
+      "required": false
+    },
+    {
+      "id": "#curios:necklace",
+      "required": false
+    },
+    {
+      "id": "#curios:belt",
+      "required": false
+    },
+    {
+      "id": "#accessories:bracelet",
+      "required": false
+    },
+    {
+      "id": "#curios:hands",
+      "required": false
+    },
+    {
+      "id": "#curios:ring",
+      "required": false
+    },
+    {
+      "id": "#curios:head",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "values": [
+    {
+      "id": "#accessories:all",
+      "required": false
+    },
+    {
+      "id": "#accessories:any",
+      "required": false
+    },
+    {
+      "id": "#accessories:anklet",
+      "required": false
+    },
+    {
+      "id": "#accessories:arrow",
+      "required": false
+    },
+    {
+      "id": "#accessories:back",
+      "required": false
+    },
+    {
+      "id": "#accessories:cape",
+      "required": false
+    },
+    {
+      "id": "#accessories:belt",
+      "required": false
+    },
+    {
+      "id": "#accessories:shoes",
+      "required": false
+    },
+    {
+      "id": "#accessories:wrist",
+      "required": false
+    },
+    {
+      "id": "#accessories:ring",
+      "required": false
+    },
+    {
+      "id": "#accessories:hand",
+      "required": false
+    },
+    {
+      "id": "#accessories:necklace",
+      "required": false
+    },
+    {
+      "id": "#accessories:face",
+      "required": false
+    },
+    {
+      "id": "#accessories:hat",
+      "required": false
+    },
+    {
+      "id": "#accessories:charm",
+      "required": false
+    },
+    {
+      "id": "#accessories:clock",
+      "required": false
+    },
+    {
+      "id": "#accessories:compass",
+      "required": false
+    },
+    {
+      "id": "#accessories:recovery_compass",
+      "required": false
+    },
+    {
+      "id": "#accessories:elytra",
+      "required": false
+    },
+    {
+      "id": "#accessories:lantern",
+      "required": false
+    },
+    {
+      "id": "#accessories:shulker",
+      "required": false
+    },
+    {
+      "id": "#accessories:ender_chest",
+      "required": false
+    },
+    {
+      "id": "#accessories:spyglass",
+      "required": false
+    },
+    {
+      "id": "#accessories:totem",
+      "required": false
+    },
+    {
+      "id": "#accessories_compat_layer:all_curios_items",
+      "required": false
+    },
+    {
+      "id": "#accessories_compat_layer:all_trinkets_items",
+      "required": false
+    }
+  ]
+}

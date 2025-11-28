@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:wolf_armor",
+    {
+      "id": "netheriteextras:netherite_wolf_armor",
+      "required": false
+    }
+  ]
+}

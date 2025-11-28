@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:compass",
+    {
+      "id": "linkedchests:linked_pouch",
+      "required": false
+    },
+    {
+      "id": "#bagofholding:bags",
+      "required": false
+    },
+    {
+      "id": "#moblassos:enchantable/lasso",
+      "required": false
+    }
+  ]
+}

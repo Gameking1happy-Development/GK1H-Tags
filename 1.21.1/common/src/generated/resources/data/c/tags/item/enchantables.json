@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#netherited:enchantable/fireproof",
+      "required": false
+    },
+    {
+      "id": "#c:misc_enchantables",
+      "required": false
+    }
+  ]
+}

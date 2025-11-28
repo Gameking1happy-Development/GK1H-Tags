@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "#accessories:all_accessories",
+      "required": false
+    },
+    {
+      "id": "#curios:all_curios",
+      "required": false
+    },
+    {
+      "id": "#trinkets:all_trinkets",
+      "required": false
+    }
+  ]
+}

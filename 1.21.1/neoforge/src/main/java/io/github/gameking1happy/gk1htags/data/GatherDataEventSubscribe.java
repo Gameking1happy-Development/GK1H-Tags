@@ -1,7 +1,11 @@
 package io.github.gameking1happy.gk1htags.data;
 
-import io.github.gameking1happy.gk1htags.data.client.MyLanguageProvider;
-import io.github.gameking1happy.gk1htags.data.examplepack.ExamplePackRecipeProvider;
+import io.github.gameking1happy.gk1htags.data.accessories.AccessoriesItemTagsProvider;
+import io.github.gameking1happy.gk1htags.data.curios.CuriosItemTagsProvider;
+import io.github.gameking1happy.gk1htags.data.netherited.NetheritedItemTagsProvider;
+import io.github.gameking1happy.gk1htags.data.reinfshulker.ReinfShulkeritemTagsProvider;
+import io.github.gameking1happy.gk1htags.data.spikyspikes.SpikySpikesItemTagsProvider;
+import io.github.gameking1happy.gk1htags.data.trinkets.TrinketsItemTagsProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -28,14 +32,22 @@ public class GatherDataEventSubscribe {
     public static void gatherData(@NotNull GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
         PackOutput output = generator.getPackOutput();
-        PackOutput ExamplePackOutput = generator.getPackOutput("examplepack");
+        PackOutput NetheritedOutput = generator.getPackOutput("netherited");
+        PackOutput ReinfShulkerOutput = generator.getPackOutput("reinfshulker");
+        PackOutput AccessoriesOutput = generator.getPackOutput("accessories");
+        PackOutput CuriosOutput = generator.getPackOutput("curios");
+        PackOutput TrinketsOutput = generator.getPackOutput("trinkets");
+        PackOutput SpikySpikesOutput = generator.getPackOutput("spikyspikes");
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
         BlockTagsProvider blockTagsProvider = new MyBlockTagsProvider(output, lookupProvider, existingFileHelper);
-        generator.addProvider(event.includeServer(), new MyRecipeProvider(output, lookupProvider));
-        generator.addProvider(event.includeClient(), new MyLanguageProvider(output));
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new MyItemTagsProvider(output, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        generator.addProvider(event.includeServer(), new ExamplePackRecipeProvider(ExamplePackOutput,lookupProvider));
+        generator.addProvider(event.includeServer(), new NetheritedItemTagsProvider(NetheritedOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new ReinfShulkeritemTagsProvider(ReinfShulkerOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new AccessoriesItemTagsProvider(AccessoriesOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new CuriosItemTagsProvider(CuriosOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new TrinketsItemTagsProvider(TrinketsOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new SpikySpikesItemTagsProvider(SpikySpikesOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
     }
 }

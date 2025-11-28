@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "#spikyspikes:enchantable_spiky_spikes",
+      "required": false
+    },
+    {
+      "id": "spikyspikes:wooden_spike",
+      "required": false
+    },
+    {
+      "id": "spikyspikes:stone_spike",
+      "required": false
+    },
+    {
+      "id": "spikyspikes:gold_spike",
+      "required": false
+    },
+    {
+      "id": "spikyspikes:iron_spike",
+      "required": false
+    }
+  ]
+}
