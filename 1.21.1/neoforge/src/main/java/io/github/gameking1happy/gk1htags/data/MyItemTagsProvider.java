@@ -31,23 +31,23 @@ public class MyItemTagsProvider extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
-        tag(Tags.Items.SHULKER_BOXES).addOptionalTag(AllReinfShulker);
-        tag(MiscEnchantables)
+        tag(Tags.Items.SHULKER_BOXES).addOptionalTag(allReinfShulker);
+        tag(miscEnchantables)
                 .add(Items.COMPASS)
-                .addOptional(fNaP( "linkedchests", "linked_pouch"))
-                .addOptionalTags(ITKC("bagofholding","bags"), ITKC("moblassos","enchantable/lasso"));
-        tag(Tags.Items.ENCHANTABLES).addOptionalTags(NetFireproof, MiscEnchantables);
-        tag(HorseArmor)
+                .addOptional(fnap( "linkedchests", "linked_pouch"))
+                .addOptionalTags(itkc("bagofholding","bags"), itkc("moblassos","enchantable/lasso"));
+        tag(Tags.Items.ENCHANTABLES).addOptionalTags(netFireproof, miscEnchantables);
+        tag(horseArmor)
                 .add(Items.DIAMOND_HORSE_ARMOR, Items.LEATHER_HORSE_ARMOR, Items.IRON_HORSE_ARMOR, Items.GOLDEN_HORSE_ARMOR)
-                .addOptional(fNaP("netheriteextras","netherite_horse_armor"));
-        tag(WolfArmor)
+                .addOptional(fnap("netheriteextras","netherite_horse_armor"));
+        tag(wolfArmor)
                 .add(Items.WOLF_ARMOR)
-                .addOptional(fNaP("netheriteextras","netherite_wolf_armor"));
-        tag(AnimalArmor).addTags(HorseArmor, WolfArmor);
-        tag(Accessories).addOptionalTags(AllAccessories,AllCurios,AllTrinkets);
-        tag(Totems)
+                .addOptional(fnap("netheriteextras","netherite_wolf_armor"));
+        tag(animalArmor).addTags(horseArmor, wolfArmor);
+        tag(accessories).addOptionalTags(allAccessories, allCurios, allTrinkets);
+        tag(totems)
                 .add(Items.TOTEM_OF_UNDYING)
-                .addOptional(fNaP("netheriteextras","totem_of_neverdying"));
-        tag(Backpacks).addOptionalTag(TravelersBackpacks);
+                .addOptional(fnap("netheriteextras","totem_of_neverdying"));
+        tag(backpacks).addOptionalTag(travelersBackpacks);
     }
 }

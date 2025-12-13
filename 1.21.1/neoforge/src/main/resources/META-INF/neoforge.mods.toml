@@ -41,7 +41,7 @@ side = "BOTH"
 [dependencies.${ mod_id }.mc-publish]
 ignore = false
 modrinth = "gk1h-core"
-curseforge = "gk1h-core"
+curseforge = "1384685"
 [mc-publish]
 modrinth = "gk1h-tags"
 curseforge = "1389964"

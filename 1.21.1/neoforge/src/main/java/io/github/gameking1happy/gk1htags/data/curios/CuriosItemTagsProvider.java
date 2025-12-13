@@ -31,6 +31,6 @@ public class CuriosItemTagsProvider extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
-        tag(AllCurios).addOptionalTags(CuriosArrow,CuriosAll,CuriosCharm,CuriosCurio,CuriosCompass,CuriosRecoveryCompass,CuriosClock,CuriosElytra,CuriosEnderChest,CuriosBack,CuriosTotem,CuriosBody,CuriosLantern,CuriosSpyglass,CuriosShulker,CuriosNecklace,CuriosBelt,CuriosBracelet,CuriosHands,CuriosRing,CuriosHead);
+        tag(allCurios).addOptionalTags(curiosArrow, curiosAll, curiosCharm, curiosCurio, curiosCompass, curiosRecoveryCompass, curiosClock, curiosElytra, curiosEnderChest, curiosBack, curiosTotem, curiosBody, curiosLantern, curiosSpyglass, curiosShulker, curiosNecklace, curiosBelt, curiosBracelet, curiosHands, curiosRing, curiosHead);
     }
 }

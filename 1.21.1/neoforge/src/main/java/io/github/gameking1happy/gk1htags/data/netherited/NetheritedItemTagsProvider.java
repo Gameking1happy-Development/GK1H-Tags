@@ -32,6 +32,6 @@ public class NetheritedItemTagsProvider extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
-        tag(NetFireproof).addTag(Tags.Items.SHULKER_BOXES);
+        tag(netFireproof).addTag(Tags.Items.SHULKER_BOXES);
     }
 }

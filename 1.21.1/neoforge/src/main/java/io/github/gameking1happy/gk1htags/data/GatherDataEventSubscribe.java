@@ -32,22 +32,22 @@ public class GatherDataEventSubscribe {
     public static void gatherData(@NotNull GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
         PackOutput output = generator.getPackOutput();
-        PackOutput NetheritedOutput = generator.getPackOutput("netherited");
-        PackOutput ReinfShulkerOutput = generator.getPackOutput("reinfshulker");
-        PackOutput AccessoriesOutput = generator.getPackOutput("accessories");
-        PackOutput CuriosOutput = generator.getPackOutput("curios");
-        PackOutput TrinketsOutput = generator.getPackOutput("trinkets");
-        PackOutput SpikySpikesOutput = generator.getPackOutput("spikyspikes");
+        PackOutput netheritedOutput = generator.getPackOutput("netherited");
+        PackOutput reinfShulkerOutput = generator.getPackOutput("reinfshulker");
+        PackOutput accessoriesOutput = generator.getPackOutput("accessories");
+        PackOutput curiosOutput = generator.getPackOutput("curios");
+        PackOutput trinketsOutput = generator.getPackOutput("trinkets");
+        PackOutput spikySpikesOutput = generator.getPackOutput("spikyspikes");
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
         BlockTagsProvider blockTagsProvider = new MyBlockTagsProvider(output, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new MyItemTagsProvider(output, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        generator.addProvider(event.includeServer(), new NetheritedItemTagsProvider(NetheritedOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        generator.addProvider(event.includeServer(), new ReinfShulkeritemTagsProvider(ReinfShulkerOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        generator.addProvider(event.includeServer(), new AccessoriesItemTagsProvider(AccessoriesOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        generator.addProvider(event.includeServer(), new CuriosItemTagsProvider(CuriosOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        generator.addProvider(event.includeServer(), new TrinketsItemTagsProvider(TrinketsOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        generator.addProvider(event.includeServer(), new SpikySpikesItemTagsProvider(SpikySpikesOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new NetheritedItemTagsProvider(netheritedOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new ReinfShulkeritemTagsProvider(reinfShulkerOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new AccessoriesItemTagsProvider(accessoriesOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new CuriosItemTagsProvider(curiosOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new TrinketsItemTagsProvider(trinketsOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new SpikySpikesItemTagsProvider(spikySpikesOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
     }
 }
