@@ -32,11 +32,11 @@ public class SpikySpikesItemTagsProvider extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
-        tag(enchantableSpikySpikes)
+        tag(ENCHANTABLE_SPIKY_SPIKES)
                 .addOptional(fnap("spikyspikes","diamond_spike"))
                 .addOptional(fnap("spikyspikes","netherite_spike"));
-        tag(spikySpikes)
-                .addOptionalTag(enchantableSpikySpikes)
+        tag(SPIKY_SPIKES)
+                .addOptionalTag(ENCHANTABLE_SPIKY_SPIKES)
                 .addOptional(fnap("spikyspikes","wooden_spike"))
                 .addOptional(fnap("spikyspikes","stone_spike"))
                 .addOptional(fnap("spikyspikes","gold_spike"))

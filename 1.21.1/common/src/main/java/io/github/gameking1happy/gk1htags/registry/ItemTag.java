@@ -39,317 +39,317 @@ public class ItemTag {
     /**
      * All accessories.
      */
-    public static final @NotNull TagKey<Item> accessories = itkc("c", "accessories");
+    public static final @NotNull TagKey<Item> ACCESSORIES = itkc("c", "accessories");
     /**
      * All Accessories accessories.
      */
-    public static final @NotNull TagKey<Item> allAccessories = accessories("all_accessories");
+    public static final @NotNull TagKey<Item> ALL_ACCESSORIES = accessories("all_accessories");
     /**
      * Accessories all slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesAll = accessories("all");
+    public static final @NotNull TagKey<Item> ACCESSORIES_ALL = accessories("all");
     /**
      * Accessories any slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesAny = accessories("any");
+    public static final @NotNull TagKey<Item> ACCESSORIES_ANY = accessories("any");
     /**
      * Accessories charm slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesCharm = accessories("charm");
+    public static final @NotNull TagKey<Item> ACCESSORIES_CHARM = accessories("charm");
     /**
      * Accessories hat slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesHat = accessories("hat");
+    public static final @NotNull TagKey<Item> ACCESSORIES_HAT = accessories("hat");
     /**
      * Accessories face slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesFace = accessories("face");
+    public static final @NotNull TagKey<Item> ACCESSORIES_FACE = accessories("face");
     /**
      * Accessories cape slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesCape = accessories("cape");
+    public static final @NotNull TagKey<Item> ACCESSORIES_CAPE = accessories("cape");
     /**
      * Accessories necklace slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesNecklace = accessories("necklace");
+    public static final @NotNull TagKey<Item> ACCESSORIES_NECKLACE = accessories("necklace");
     /**
      * Accessories back slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesBack = accessories("back");
+    public static final @NotNull TagKey<Item> ACCESSORIES_BACK = accessories("back");
     /**
      * Accessories hand slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesHand = accessories("hand");
+    public static final @NotNull TagKey<Item> ACCESSORIES_HAND = accessories("hand");
     /**
      * Accessories ring slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesRing = accessories("ring");
+    public static final @NotNull TagKey<Item> ACCESSORIES_RING = accessories("ring");
     /**
      * Accessories wrist slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesWrist = accessories("wrist");
+    public static final @NotNull TagKey<Item> ACCESSORIES_WRIST = accessories("wrist");
     /**
      * Accessories belt slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesBelt = accessories("belt");
+    public static final @NotNull TagKey<Item> ACCESSORIES_BELT = accessories("belt");
     /**
      * Accessories anklet slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesAnklet = accessories("anklet");
+    public static final @NotNull TagKey<Item> ACCESSORIES_ANKLET = accessories("anklet");
     /**
      * Accessories shoes slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesShoes = accessories("shoes");
+    public static final @NotNull TagKey<Item> ACCESSORIES_SHOES = accessories("shoes");
     /**
      * Accessories arrow slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesArrow = accessories("arrow");
+    public static final @NotNull TagKey<Item> ACCESSORIES_ARROW = accessories("arrow");
     /**
      * Accessories clock slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesClock = accessories("clock");
+    public static final @NotNull TagKey<Item> ACCESSORIES_CLOCK = accessories("clock");
     /**
      * Accessories compass slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesCompass = accessories("compass");
+    public static final @NotNull TagKey<Item> ACCESSORIES_COMPASS = accessories("compass");
     /**
      * Accessories elytra slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesElytra = accessories("elytra");
+    public static final @NotNull TagKey<Item> ACCESSORIES_ELYTRA = accessories("elytra");
     /**
      * Accessories ender chest slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesEnderChest = accessories("ender_chest");
+    public static final @NotNull TagKey<Item> ACCESSORIES_ENDER_CHEST = accessories("ender_chest");
     /**
      * Accessories lantern slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesLantern = accessories("lantern");
+    public static final @NotNull TagKey<Item> ACCESSORIES_LANTERN = accessories("lantern");
     /**
      * Accessories recovery compass slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesRecoveryCompass = accessories("recovery_compass");
+    public static final @NotNull TagKey<Item> ACCESSORIES_RECOVERY_COMPASS = accessories("recovery_compass");
     /**
      * Accessories shulker slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesShulker = accessories("shulker");
+    public static final @NotNull TagKey<Item> ACCESSORIES_SHULKER = accessories("shulker");
     /**
      * Accessories spyglass slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesSpyglass = accessories("spyglass");
+    public static final @NotNull TagKey<Item> ACCESSORIES_SPYGLASS = accessories("spyglass");
     /**
      * Accessories totem slot.
      */
-    public static final @NotNull TagKey<Item> accessoriesTotem = accessories("totem");
+    public static final @NotNull TagKey<Item> ACCESSORIES_TOTEM = accessories("totem");
     /**
      * Accessories compat all Curios items.
      */
-    public static final @NotNull TagKey<Item> accessoriesCurios = itkc("accessories_compat_layer", "all_curios_items");
+    public static final @NotNull TagKey<Item> ACCESSORIES_CURIOS = itkc("accessories_compat_layer", "all_curios_items");
     /**
      * Accessories compat all Trinkets items.
      */
-    public static final @NotNull TagKey<Item> accessoriesTrinkets = itkc("accessories_compat_layer", "all_trinkets_items");
+    public static final @NotNull TagKey<Item> ACCESSORIES_TRINKETS = itkc("accessories_compat_layer", "all_trinkets_items");
     /**
      * All Curios accessories.
      */
-    public static final @NotNull TagKey<Item> allCurios = curios("all_curios");
+    public static final @NotNull TagKey<Item> ALL_CURIOS = curios("all_curios");
     /**
      * Curios all slot.
      */
-    public static final @NotNull TagKey<Item> curiosAll = curios("all");
+    public static final @NotNull TagKey<Item> CURIOS_ALL = curios("all");
     /**
      * Curios curio slot.
      */
-    public static final @NotNull TagKey<Item> curiosCurio = curios("curio");
+    public static final @NotNull TagKey<Item> CURIOS_CURIO = curios("curio");
     /**
      * Curios charm slot.
      */
-    public static final @NotNull TagKey<Item> curiosCharm = curios("charm");
+    public static final @NotNull TagKey<Item> CURIOS_CHARM = curios("charm");
     /**
      * Curios head slot.
      */
-    public static final @NotNull TagKey<Item> curiosHead = curios("head");
+    public static final @NotNull TagKey<Item> CURIOS_HEAD = curios("head");
     /**
      * Curios bracelet slot.
      */
-    public static final @NotNull TagKey<Item> curiosBracelet = accessories("bracelet");
+    public static final @NotNull TagKey<Item> CURIOS_BRACELET = accessories("bracelet");
     /**
      * Curios necklace slot.
      */
-    public static final @NotNull TagKey<Item> curiosNecklace = curios("necklace");
+    public static final @NotNull TagKey<Item> CURIOS_NECKLACE = curios("necklace");
     /**
      * Curios back slot.
      */
-    public static final @NotNull TagKey<Item> curiosBack = curios("back");
+    public static final @NotNull TagKey<Item> CURIOS_BACK = curios("back");
     /**
      * Curios hands slot.
      */
-    public static final @NotNull TagKey<Item> curiosHands = curios("hands");
+    public static final @NotNull TagKey<Item> CURIOS_HANDS = curios("hands");
     /**
      * Curios ring slot.
      */
-    public static final @NotNull TagKey<Item> curiosRing = curios("ring");
+    public static final @NotNull TagKey<Item> CURIOS_RING = curios("ring");
     /**
      * Curios body slot.
      */
-    public static final @NotNull TagKey<Item> curiosBody = curios("body");
+    public static final @NotNull TagKey<Item> CURIOS_BODY = curios("body");
     /**
      * Curios belt slot.
      */
-    public static final @NotNull TagKey<Item> curiosBelt = curios("belt");
+    public static final @NotNull TagKey<Item> CURIOS_BELT = curios("belt");
     /**
      * Curios arrow slot.
      */
-    public static final @NotNull TagKey<Item> curiosArrow = curios("arrow");
+    public static final @NotNull TagKey<Item> CURIOS_ARROW = curios("arrow");
     /**
      * Curios clock slot.
      */
-    public static final @NotNull TagKey<Item> curiosClock = curios("clock");
+    public static final @NotNull TagKey<Item> CURIOS_CLOCK = curios("clock");
     /**
      * Curios compass slot.
      */
-    public static final @NotNull TagKey<Item> curiosCompass = curios("compass");
+    public static final @NotNull TagKey<Item> CURIOS_COMPASS = curios("compass");
     /**
      * Curios elytra slot.
      */
-    public static final @NotNull TagKey<Item> curiosElytra = curios("elytra");
+    public static final @NotNull TagKey<Item> CURIOS_ELYTRA = curios("elytra");
     /**
      * Curios ender chest slot.
      */
-    public static final @NotNull TagKey<Item> curiosEnderChest = curios("ender_chest");
+    public static final @NotNull TagKey<Item> CURIOS_ENDER_CHEST = curios("ender_chest");
     /**
      * Curios lantern slot.
      */
-    public static final @NotNull TagKey<Item> curiosLantern = curios("lantern");
+    public static final @NotNull TagKey<Item> CURIOS_LANTERN = curios("lantern");
     /**
      * Curios recovery compass slot.
      */
-    public static final @NotNull TagKey<Item> curiosRecoveryCompass = curios("recovery_compass");
+    public static final @NotNull TagKey<Item> CURIOS_RECOVERY_COMPASS = curios("recovery_compass");
     /**
      * Curios shulker slot.
      */
-    public static final @NotNull TagKey<Item> curiosShulker = curios("shulker");
+    public static final @NotNull TagKey<Item> CURIOS_SHULKER = curios("shulker");
     /**
      * Curios spyglass slot.
      */
-    public static final @NotNull TagKey<Item> curiosSpyglass = curios("spyglass");
+    public static final @NotNull TagKey<Item> CURIOS_SPYGLASS = curios("spyglass");
     /**
      * Curios totem slot.
      */
-    public static final @NotNull TagKey<Item> curiosTotem = curios("totem");
+    public static final @NotNull TagKey<Item> CURIOS_TOTEM = curios("totem");
     /**
      * All Trinkets accessories.
      */
-    public static final @NotNull TagKey<Item> allTrinkets = trinkets("all_trinkets");
+    public static final @NotNull TagKey<Item> ALL_TRINKETS = trinkets("all_trinkets");
     /**
      * Trinkets back slot.
      */
-    public static final @NotNull TagKey<Item> trinketsBack = trinkets("chest/back");
+    public static final @NotNull TagKey<Item> TRINKETS_BACK = trinkets("chest/back");
     /**
      * Trinkets cape slot.
      */
-    public static final @NotNull TagKey<Item> trinketsCape = trinkets("chest/cape");
+    public static final @NotNull TagKey<Item> TRINKETS_CAPE = trinkets("chest/cape");
     /**
      * Trinkets necklace slot.
      */
-    public static final @NotNull TagKey<Item> trinketsNecklace = trinkets("chest/necklace");
+    public static final @NotNull TagKey<Item> TRINKETS_NECKLACE = trinkets("chest/necklace");
     /**
      * Trinkets hat slot.
      */
-    public static final @NotNull TagKey<Item> trinketsHat = trinkets("head/hat");
+    public static final @NotNull TagKey<Item> TRINKETS_HAT = trinkets("head/hat");
     /**
      * Trinkets face slot.
      */
-    public static final @NotNull TagKey<Item> trinketsFace = trinkets("head/face");
+    public static final @NotNull TagKey<Item> TRINKETS_FACE = trinkets("head/face");
     /**
      * Trinkets belt slot.
      */
-    public static final @NotNull TagKey<Item> trinketsBelt = trinkets("legs/belt");
+    public static final @NotNull TagKey<Item> TRINKETS_BELT = trinkets("legs/belt");
     /**
      * Trinkets shoes slot.
      */
-    public static final @NotNull TagKey<Item> trinketsShoes = trinkets("feet/shoes");
+    public static final @NotNull TagKey<Item> TRINKETS_SHOES = trinkets("feet/shoes");
     /**
      * Trinkets aglet slot.
      */
-    public static final @NotNull TagKey<Item> trinketsAglet = trinkets("feet/aglet");
+    public static final @NotNull TagKey<Item> TRINKETS_AGLET = trinkets("feet/aglet");
     /**
      * Trinkets hand/glove slot.
      */
-    public static final @NotNull TagKey<Item> trinketsHandGlove = trinkets("hand/glove");
+    public static final @NotNull TagKey<Item> TRINKETS_HAND_GLOVE = trinkets("hand/glove");
     /**
      * Trinkets offhand/glove slot.
      */
-    public static final @NotNull TagKey<Item> trinketsOffHandGlove = trinkets("offhand/glove");
+    public static final @NotNull TagKey<Item> TRINKETS_OFF_HAND_GLOVE = trinkets("offhand/glove");
     /**
      * Trinkets hand/ring slot.
      */
-    public static final @NotNull TagKey<Item> trinketsHandRing = trinkets("hand/ring");
+    public static final @NotNull TagKey<Item> TRINKETS_HAND_RING = trinkets("hand/ring");
     /**
      * Trinkets offhand/ring slot.
      */
-    public static final @NotNull TagKey<Item> trinketsOffHandRing = trinkets("offhand/ring");
+    public static final @NotNull TagKey<Item> TRINKETS_OFF_HAND_RING = trinkets("offhand/ring");
     /**
      * Netherited fireproof.
      */
-    public static final @NotNull TagKey<Item> netFireproof = itkc("netherited","enchantable/fireproof");
+    public static final @NotNull TagKey<Item> NET_FIREPROOF = itkc("netherited","enchantable/fireproof");
     /**
      * Reinforced Shulker Boxes.
      */
-    public static final @NotNull TagKey<Item> allReinfShulker = itkc("reinfshulker","reinforced_shulker_boxes");
+    public static final @NotNull TagKey<Item> ALL_REINF_SHULKER = itkc("reinfshulker","reinforced_shulker_boxes");
     /**
      * Reinforced Shulker Boxes copper.
      */
-    public static final @NotNull TagKey<Item> copperReinfShulker = itkc("reinfshulker","copper_shulker_boxes");
+    public static final @NotNull TagKey<Item> COPPER_REINF_SHULKER = itkc("reinfshulker","copper_shulker_boxes");
     /**
      * Reinforced Shulker Boxes iron.
      */
-    public static final @NotNull TagKey<Item> ironReinfShulker = itkc("reinfshulker","iron_shulker_boxes");
+    public static final @NotNull TagKey<Item> IRON_REINF_SHULKER = itkc("reinfshulker","iron_shulker_boxes");
     /**
      * Reinforced Shulker Boxes gold.
      */
-    public static final @NotNull TagKey<Item> goldReinfShulker = itkc("reinfshulker","gold_shulker_boxes");
+    public static final @NotNull TagKey<Item> GOLD_REINF_SHULKER = itkc("reinfshulker","gold_shulker_boxes");
     /**
      * Reinforced Shulker Boxes diamond.
      */
-    public static final @NotNull TagKey<Item> diamondReinfShulker = itkc("reinfshulker","diamond_shulker_boxes");
+    public static final @NotNull TagKey<Item> DIAMOND_REINF_SHULKER = itkc("reinfshulker","diamond_shulker_boxes");
     /**
      * Reinforced Shulker Boxes netherite.
      */
-    public static final @NotNull TagKey<Item> netheriteReinfShulker = itkc("reinfshulker","netherite_shulker_boxes");
+    public static final @NotNull TagKey<Item> NETHERITE_REINF_SHULKER = itkc("reinfshulker","netherite_shulker_boxes");
     /**
      * Tag of horse armor items.
      */
-    public static final @NotNull TagKey<Item> horseArmor = itkc("c", "horse_armor");
+    public static final @NotNull TagKey<Item> HORSE_ARMOR = itkc("c", "horse_armor");
     /**
      * Tag of wolf armor items.
      */
-    public static final @NotNull TagKey<Item> wolfArmor = itkc("c", "wolf_armor");
+    public static final @NotNull TagKey<Item> WOLF_ARMOR = itkc("c", "wolf_armor");
     /**
      * Tag of animal armor items.
      */
-    public static final @NotNull TagKey<Item> animalArmor = itkc("c", "animal_armor");
+    public static final @NotNull TagKey<Item> ANIMAL_ARMOR = itkc("c", "animal_armor");
     /**
      * Tag of totems.
      */
-    public static final @NotNull TagKey<Item> totems = itkc("c", "totems");
+    public static final @NotNull TagKey<Item> TOTEMS = itkc("c", "totems");
     /**
      * Tag of backpacks.
      */
-    public static final @NotNull TagKey<Item> backpacks = itkc("c","backpacks");
+    public static final @NotNull TagKey<Item> BACKPACKS = itkc("c","backpacks");
     /**
      * Tag of Traveler's Backpack backpacks.
      */
-    public static final @NotNull TagKey<Item> travelersBackpacks = itkc("travelersbackpack","custom_travelers_backpack");
+    public static final @NotNull TagKey<Item> TRAVELERS_BACKPACKS = itkc("travelersbackpack","custom_travelers_backpack");
     /**
      * Spiky Spikes.
      */
-    public static final @NotNull TagKey<Item> spikySpikes = itkc("spikyspikes","spiky_spikes");
+    public static final @NotNull TagKey<Item> SPIKY_SPIKES = itkc("spikyspikes","spiky_spikes");
     /**
      * Enchantable Spiky Spikes.
      */
-    public static final @NotNull TagKey<Item> enchantableSpikySpikes = itkc("spikyspikes","enchantable_spiky_spikes");
+    public static final @NotNull TagKey<Item> ENCHANTABLE_SPIKY_SPIKES = itkc("spikyspikes","enchantable_spiky_spikes");
     /**
      * Miscellaneous enchantables.
      */
-    public static final @NotNull TagKey<Item> miscEnchantables = itkc("c","misc_enchantables");
+    public static final @NotNull TagKey<Item> MISC_ENCHANTABLES = itkc("c","misc_enchantables");
 }

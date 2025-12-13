@@ -31,6 +31,6 @@ public class TrinketsItemTagsProvider extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
-        tag(allTrinkets).addOptionalTags(trinketsAglet, trinketsOffHandGlove, trinketsOffHandRing, trinketsHandRing, trinketsHandGlove, trinketsBack, trinketsCape, accessoriesAnklet, trinketsNecklace, trinketsFace, trinketsHat, trinketsBelt, trinketsShoes);
+        tag(ALL_TRINKETS).addOptionalTags(TRINKETS_AGLET, TRINKETS_OFF_HAND_GLOVE, TRINKETS_OFF_HAND_RING, TRINKETS_HAND_RING, TRINKETS_HAND_GLOVE, TRINKETS_BACK, TRINKETS_CAPE, ACCESSORIES_ANKLET, TRINKETS_NECKLACE, TRINKETS_FACE, TRINKETS_HAT, TRINKETS_BELT, TRINKETS_SHOES);
     }
 }

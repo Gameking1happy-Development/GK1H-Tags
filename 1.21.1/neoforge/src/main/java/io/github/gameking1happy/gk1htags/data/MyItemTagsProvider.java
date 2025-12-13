@@ -31,23 +31,23 @@ public class MyItemTagsProvider extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
-        tag(Tags.Items.SHULKER_BOXES).addOptionalTag(allReinfShulker);
-        tag(miscEnchantables)
+        tag(Tags.Items.SHULKER_BOXES).addOptionalTag(ALL_REINF_SHULKER);
+        tag(MISC_ENCHANTABLES)
                 .add(Items.COMPASS)
                 .addOptional(fnap( "linkedchests", "linked_pouch"))
                 .addOptionalTags(itkc("bagofholding","bags"), itkc("moblassos","enchantable/lasso"));
-        tag(Tags.Items.ENCHANTABLES).addOptionalTags(netFireproof, miscEnchantables);
-        tag(horseArmor)
+        tag(Tags.Items.ENCHANTABLES).addOptionalTags(NET_FIREPROOF, MISC_ENCHANTABLES);
+        tag(HORSE_ARMOR)
                 .add(Items.DIAMOND_HORSE_ARMOR, Items.LEATHER_HORSE_ARMOR, Items.IRON_HORSE_ARMOR, Items.GOLDEN_HORSE_ARMOR)
                 .addOptional(fnap("netheriteextras","netherite_horse_armor"));
-        tag(wolfArmor)
+        tag(WOLF_ARMOR)
                 .add(Items.WOLF_ARMOR)
                 .addOptional(fnap("netheriteextras","netherite_wolf_armor"));
-        tag(animalArmor).addTags(horseArmor, wolfArmor);
-        tag(accessories).addOptionalTags(allAccessories, allCurios, allTrinkets);
-        tag(totems)
+        tag(ANIMAL_ARMOR).addTags(HORSE_ARMOR, WOLF_ARMOR);
+        tag(ACCESSORIES).addOptionalTags(ALL_ACCESSORIES, ALL_CURIOS, ALL_TRINKETS);
+        tag(TOTEMS)
                 .add(Items.TOTEM_OF_UNDYING)
                 .addOptional(fnap("netheriteextras","totem_of_neverdying"));
-        tag(backpacks).addOptionalTag(travelersBackpacks);
+        tag(BACKPACKS).addOptionalTag(TRAVELERS_BACKPACKS);
     }
 }

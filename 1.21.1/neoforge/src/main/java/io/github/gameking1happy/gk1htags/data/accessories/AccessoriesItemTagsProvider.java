@@ -31,6 +31,6 @@ public class AccessoriesItemTagsProvider extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
-        tag(allAccessories).addOptionalTags(accessoriesAll, accessoriesAny, accessoriesAnklet, accessoriesArrow, accessoriesBack, accessoriesCape, accessoriesBelt, accessoriesShoes, accessoriesWrist, accessoriesRing, accessoriesHand, accessoriesNecklace, accessoriesFace, accessoriesHat, accessoriesCharm, accessoriesClock, accessoriesCompass, accessoriesRecoveryCompass, accessoriesElytra, accessoriesLantern, accessoriesShulker, accessoriesEnderChest, accessoriesSpyglass, accessoriesTotem, accessoriesCurios, accessoriesTrinkets);
+        tag(ALL_ACCESSORIES).addOptionalTags(ACCESSORIES_ALL, ACCESSORIES_ANY, ACCESSORIES_ANKLET, ACCESSORIES_ARROW, ACCESSORIES_BACK, ACCESSORIES_CAPE, ACCESSORIES_BELT, ACCESSORIES_SHOES, ACCESSORIES_WRIST, ACCESSORIES_RING, ACCESSORIES_HAND, ACCESSORIES_NECKLACE, ACCESSORIES_FACE, ACCESSORIES_HAT, ACCESSORIES_CHARM, ACCESSORIES_CLOCK, ACCESSORIES_COMPASS, ACCESSORIES_RECOVERY_COMPASS, ACCESSORIES_ELYTRA, ACCESSORIES_LANTERN, ACCESSORIES_SHULKER, ACCESSORIES_ENDER_CHEST, ACCESSORIES_SPYGLASS, ACCESSORIES_TOTEM, ACCESSORIES_CURIOS, ACCESSORIES_TRINKETS);
     }
 }

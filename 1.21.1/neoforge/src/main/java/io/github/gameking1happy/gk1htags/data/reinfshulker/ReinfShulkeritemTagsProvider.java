@@ -31,6 +31,6 @@ public class ReinfShulkeritemTagsProvider extends ItemTagsProvider {
     }
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
-        tag(allReinfShulker).addOptionalTags(copperReinfShulker, ironReinfShulker, goldReinfShulker, diamondReinfShulker, netheriteReinfShulker);
+        tag(ALL_REINF_SHULKER).addOptionalTags(COPPER_REINF_SHULKER, IRON_REINF_SHULKER, GOLD_REINF_SHULKER, DIAMOND_REINF_SHULKER, NETHERITE_REINF_SHULKER);
     }
 }

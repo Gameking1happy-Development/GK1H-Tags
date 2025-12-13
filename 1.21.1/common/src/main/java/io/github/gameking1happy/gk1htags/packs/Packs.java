@@ -16,24 +16,24 @@ public class Packs implements AddPacks {
      * @param modContainerOrEvent ModContainer for Fabric, AddPackFindersEvent for NeoForge.
      */
     public void addPacks(@NotNull Object modContainerOrEvent) {
-        if (neted) {
+        if (NETED) {
             addCdp(modContainerOrEvent, getModID(), "netherited");
         }
-        if (access) {
+        if (ACCESS) {
             addCdp(modContainerOrEvent, getModID(), "accessories");
         }
         else {
-            if (curi) {
+            if (CURI) {
                 addCdp(modContainerOrEvent, getModID(), "curios");
             }
-            if (trink) {
+            if (TRINK) {
                 addCdp(modContainerOrEvent, getModID(), "trinkets");
             }
         }
-        if (reinfShu) {
+        if (REINF_SHU) {
             addCdp(modContainerOrEvent, getModID(), "reinfshulker");
         }
-        if (spiSpi) {
+        if (SPI_SPI) {
             addCdp(modContainerOrEvent, getModID(), "spikyspikes");
         }
     }
